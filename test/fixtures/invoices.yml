@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bill_amount: 9.99
+  company: MyText
+  agent: MyString
+  currency: MyString
+  date: 2018-01-15
+
+two:
+  bill_amount: 9.99
+  company: MyText
+  agent: MyString
+  currency: MyString
+  date: 2018-01-15
