@@ -11,29 +11,29 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :bill_amount %>
-    <%= form.text_field :bill_amount, id: :invoice_bill_amount %>
+    <%= form.text_field :bill_amount, id: :invoice_bill_amount, class: 'form-control' %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :company %>
-    <%= form.text_area :company, id: :invoice_company %>
+    <%= form.text_area :company, id: :invoice_company, class: 'form-control', rows: 1, placeholder: "Enter your company name" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :agent %>
-    <%= form.text_field :agent, id: :invoice_agent %>
+    <%= form.text_field :agent, id: :invoice_agent, class: 'form-control' %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :currency %>
-    <%= form.text_field :currency, id: :invoice_currency %>
+    <%= form.text_field :currency, id: :invoice_currency, class: 'form-control' %>
   </div>
 
-  <div class="field">
-    <%= form.label :date %>
-    <%= form.date_select :date, id: :invoice_date %>
+  <div class="form-group">
+    <%= form.label :date %> <br>
+    <%= form.date_select :date, id: :invoice_date, class: 'form-control' %>
   </div>
 
   <div class="actions">
